@@ -1,0 +1,60 @@
+.background-login {
+  display: flex;
+  background-color: #12002b;
+  height: 800px;
+}
+
+// ----- FORMULAIRE ----- //
+
+.sign-in {
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  margin-top: 48px;
+  padding: 32px;
+}
+
+.sign-in button {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #00bc77;
+  color: white;
+  border: none;
+}
+
+.sign-in-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 8px;
+  margin-top: 16px;
+  background-color: #00bc77;
+}
+
+.sign-in-button a {
+  color: white;
+}
+
+.sign-in svg {
+  font-size: 20px;
+}
+
+.username,
+.password {
+  display: flex;
+  text-align: left;
+  font-weight: bold;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.remember {
+  display: flex;
+}
+
+input {
+  padding: 5px;
+  font-size: 19px;
+}
