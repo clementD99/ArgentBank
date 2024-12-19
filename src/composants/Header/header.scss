@@ -1,0 +1,51 @@
+.logo {
+  max-width: 100%;
+  width: 200px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.nav svg {
+  margin-right: 5px;
+}
+
+.lien-login {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.lien {
+  text-decoration: none;
+}
+
+.logged {
+  display: flex;
+  gap: 5px;
+}
+
+// ----- Pour le logout ----- //
+
+.logout {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.logout:hover {
+  color: red;
+}
+
+// ----- Pour user quand connecté ----- //
+
+.user {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+.user:hover {
+  color: red;
+}
